@@ -1,0 +1,156 @@
+#page-home {
+  height: 100vh;
+}
+
+#page-home .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-home .content header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 4em 0 0;
+}
+
+#page-home .content header h1 {
+  font-size: 3em;  
+  color: var(--title-color)
+}
+
+#page-home .content main {
+  margin: 2em 34em 0;
+  
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center; 
+}
+
+#page-home form {
+  margin: 30px auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#page-home form .field-group {
+  display: flex;
+  flex-direction: row;
+}
+
+#page-home form .field  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  margin: 0 8px;
+}
+
+#page-home form .field label {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+#page-home form .field input {
+  flex: 1;
+  background: rgb(211, 211, 211);
+  width: 11em;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 8px;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+#page-home form button {
+  width: 110px;
+  height: 65px;
+  background-color: var(--primary-color);
+  border-radius: 16px;
+  border: 0;
+  font-size: 32px;
+  align-self: flex-end;
+  margin-left: 10px;  
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+#page-home form button:hover {
+  background: #91b7f1;
+}
+
+#page-home .list-people {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+  
+  margin: 2em 5em;
+}
+
+#page-home .list-people li {
+  margin-bottom: 2em;
+  background: #fff;
+  padding: 20px 20px;
+}
+
+#page-home .list-people .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-home .list-people span { 
+  font-size: 24px;
+  margin-right: 40px;
+}
+
+#page-home .list-people button {
+  background-color: #fff;
+  border: 0;  
+  cursor: pointer;
+}
+
+#page-home .list-people .edit-icon {
+  margin-right: 20px;
+}
+
+#page-home footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 150px;
+  margin-top: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-home footer .raffle-button {
+  width: 220px;
+  height: 85px;
+  background-color: #50c878;
+  border-radius: 16px;
+  border: 0;
+  font-size: 32px;
+  color: #fff;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+#page-home footer .raffle-button:hover {
+  background: #36ad5e;
+}
